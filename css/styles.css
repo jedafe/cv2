@@ -1,0 +1,134 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', sans-serif;
+  color: #40514e;
+}
+.top-container{
+  position: relative;
+  padding-top: 100px;
+  background-color: #eaf6f6;
+}
+.top-cloud{
+  position: absolute;
+  right: 400px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 400px;
+  bottom: 300px;
+}
+h1{
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size:5.625rem;
+  color: #66bfbf
+}
+h2{
+  font-family: 'Montserrat', serif;
+  font-size: 2rem;
+  color: #66bfbf;
+  font-weight: normal;
+}
+
+h3{
+  font-family: 'Montserrat', serif;
+  color: #11999e;
+}
+p{
+  line-height: 2;
+}
+.sub-text{
+  text-decoration: underline;
+}
+.middle-container{
+  margin: 100px 0;
+}
+
+.intro{
+  width: 40%;
+  margin: auto;
+}
+
+.skill-row {
+  text-align: left;
+  width: 50%;
+  margin: 100px auto;
+}
+.contact-me {
+  margin: 10px auto;
+  line-height: 2;
+}
+
+.profile-image{
+  width: 15%;
+  border-radius: 50%;
+}
+hr{
+  border-style: none;
+  border-top-style:dotted;
+  border-color: lightgray;
+  border-width: 5px;
+  width: 8%;
+  margin: 100px auto;
+
+}
+.skill-image{
+  width: 25%;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+}
+.chilli-image{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.contact-message{
+  width: 40%;
+  margin: 40px auto;
+}
+.btn {
+  /* display: inline-block; */
+  /* margin-top: 30px; */
+  background: #4cbdbd;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 0.8rem;
+  font-family: 'Montserrat', serif;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  max-width: 150px;
+  width: 50%;
+}
+
+.btn:hover {
+  background: #66bfbf;
+  text-decoration: none;
+}
+
+.bottom-container{
+  margin: 60px 0 0 0;
+  background-color: #66bfbf;
+  padding: 30px 0;
+}
+.footer-link {
+  margin-bottom: 0;
+  color: #11666e;
+  text-decoration: none;
+  margin: 0 30px;
+  font-family: 'Montserrat', serif;
+  font-size: 1rem;
+}
+.footer-link:hover{
+  color: #11999e;
+}
+
+.footer-copyright{
+  margin-bottom: 0;
+  color:#eaf6f6;
+  font-family: 'Montserrat', serif;
+  font-size: 0.9rem;
+}
